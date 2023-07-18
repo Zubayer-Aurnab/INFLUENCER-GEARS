@@ -1,0 +1,205 @@
+/* Mobile devices (Phones) */
+@media (max-width: 767px) {
+  nav {
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+.fa-solid {
+  display: none;
+}
+  .banner-container {
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px 0px;
+  }
+
+  .banner-titel {
+    font-size: 28px;
+    /* Adjust the font size for the banner title on mobile devices */
+  }
+
+  .banner-description {
+    font-size: 12px;
+    /* Adjust the font size for the banner description on mobile devices */
+  }
+
+  .banner-btn {
+    font-size: 14px;
+    /* Adjust the font size for the pre-book button on mobile devices */
+  }
+
+  .banner-right img {
+    width: 100%;
+  }
+
+  .cart-items {
+    width: 100%;
+    margin: 0px auto ;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-titel {
+    display: none;
+  }
+
+  .cart-last-text {
+    display: none;
+  }
+  .cart-titel{
+    display: none;
+  }
+  .cart-container{
+   
+    width: 90%;
+  }
+ 
+  .feature-container{
+    width: 90%;
+    margin-right:0px;
+    margin-left: 20px;
+
+  }
+  .feature-size {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .feature-right-section img {
+    width: 100%;
+  }
+
+  .feature-right-section {
+    width: 100%;
+  }
+
+  .logo {
+    flex-direction: column;
+    margin: 10px 20px;
+    height: 60px;
+    box-shadow: none;
+    gap: 20px;
+  }
+
+  .logo.container {
+    margin: 250px auto;
+   
+  }
+}
+
+
+
+/* For tablets */
+@media screen and (min-width:768px) and (max-width:1190px) {
+  nav {
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+.fa-solid {
+  display: none;
+}
+  .banner-container {
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px 0px;
+  }
+
+  .banner-titel {
+    font-size: 28px;
+    /* Adjust the font size for the banner title on mobile devices */
+  }
+
+  .banner-description {
+    font-size: 12px;
+    /* Adjust the font size for the banner description on mobile devices */
+  }
+
+  .banner-btn {
+    font-size: 14px;
+    /* Adjust the font size for the pre-book button on mobile devices */
+  }
+
+  .banner-right img {
+    width: 100%;
+  }
+
+  .cart-items {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .card-titel {
+    display: none;
+  }
+
+  .cart-last-text {
+    display: none;
+  }
+  .cart-titel{
+    display: none;
+  }
+  .cart-container{
+   margin-top: 100px;
+    width: 90%;
+  }
+ 
+  .feature-container{
+    width: 90%;
+    margin-right:0px;
+    margin-left: 20px;
+    place-items: center;
+
+  }
+  .feature-size {
+    
+   
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      flex-direction: column;
+      margin: 50px auto;
+  
+  }
+
+  .feature-right-section img {
+    width: 100%;
+  }
+
+  .feature-right-section {
+    width: 100%;
+  }
+
+  .logo {
+    flex-direction: column;
+    margin: 10px 20px;
+    height: 60px;
+    box-shadow: none;
+    gap: 20px;
+  }
+
+  .logo.container {
+    margin: 250px auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+}
